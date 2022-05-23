@@ -1,0 +1,25 @@
+.flex * {
+  text-align: center;
+}
+.bg_color {
+  background-color: tomato;
+  margin: 0.5rem;
+  height: 100%;
+}
+.flex {
+  display: flex;
+  height: 20rem;
+}
+.right-side {
+  flex-direction: column;
+}
+.left-side,
+.right-side,
+.right-bottom {
+  width: 50%;
+}
+.right-bottom,
+.item3,
+.item4 {
+  width: 100%;
+}
